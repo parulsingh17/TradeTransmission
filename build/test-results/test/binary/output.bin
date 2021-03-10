@@ -1,0 +1,15 @@
+T1 is added to the Store
+T2 is added to the Store
+T2 is added to the Store
+T1 is added to the Store
+T3 is added to the Store
+T4 is added to the Store
+TStore does not allow the trade (T5) as it has less maturity date then current date
+T7 is added to the Store
+
+TStore does not allow the trade (T1) as it has less maturity date then current date
+T2 is added to the Store
+T2 is added to the Store
+&T1 1 CP-2 B1 20/05/2021 11/03/2021 N
+&T2 2 CP-2 B1 20/05/2021 11/03/2021 N
+&T3 3 CP-3 B2 20/05/2020 11/03/2021 Y

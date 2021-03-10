@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="trades.TradeTransmissionTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-03-10T19:32:19" hostname="DELL-PC" time="0.1">
+  <properties/>
+  <testcase name="testAddTrade()" classname="trades.TradeTransmissionTest" time="0.049"/>
+  <testcase name="testVersionHigh()" classname="trades.TradeTransmissionTest" time="0.004"/>
+  <testcase name="testVersionSame()" classname="trades.TradeTransmissionTest" time="0.003"/>
+  <testcase name="testVersionLow()" classname="trades.TradeTransmissionTest" time="0.004"/>
+  <testcase name="testMaturityGreater()" classname="trades.TradeTransmissionTest" time="0.002"/>
+  <testcase name="testMaurityLower()" classname="trades.TradeTransmissionTest" time="0.003"/>
+  <testcase name="testSameMaturity()" classname="trades.TradeTransmissionTest" time="0.003"/>
+  <testcase name="testExpiry()" classname="trades.TradeTransmissionTest" time="0.002"/>
+  <testcase name="test1()" classname="trades.TradeTransmissionTest" time="0.001"/>
+  <testcase name="test2()" classname="trades.TradeTransmissionTest" time="0.002"/>
+  <testcase name="test3()" classname="trades.TradeTransmissionTest" time="0.002"/>
+  <testcase name="test4()" classname="trades.TradeTransmissionTest" time="0.003"/>
+  <testcase name="testIfTradeEmpty()" classname="trades.TradeTransmissionTest" time="0.003"/>
+  <system-out><![CDATA[T1 is added to the Store
+T2 is added to the Store
+T2 is added to the Store
+T1 is added to the Store
+T3 is added to the Store
+T4 is added to the Store
+Store does not allow the trade (T5) as it has less maturity date then current date
+T7 is added to the Store
+Store does not allow the trade (T1) as it has less maturity date then current date
+T2 is added to the Store
+T2 is added to the Store
+T1 1 CP-2 B1 20/05/2021 11/03/2021 N
+T2 2 CP-2 B1 20/05/2021 11/03/2021 N
+T3 3 CP-3 B2 20/05/2020 11/03/2021 Y
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
